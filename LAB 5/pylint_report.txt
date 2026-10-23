@@ -1,0 +1,27 @@
+************* Module library_catalog_system
+library_catalog_system.py:73:0: C0304: Final newline missing (missing-final-newline)
+library_catalog_system.py:15:0: C0116: Missing function or method docstring (missing-function-docstring)
+library_catalog_system.py:15:0: C0103: Function name "issueBook" doesn't conform to snake_case naming style (invalid-name)
+library_catalog_system.py:15:0: W0102: Dangerous default value [] as argument (dangerous-default-value)
+library_catalog_system.py:19:25: C0209: Formatting a regular string which could be an f-string (consider-using-f-string)
+library_catalog_system.py:23:0: C0116: Missing function or method docstring (missing-function-docstring)
+library_catalog_system.py:26:4: W0702: No exception type(s) specified (bare-except)
+library_catalog_system.py:30:0: C0116: Missing function or method docstring (missing-function-docstring)
+library_catalog_system.py:32:7: C0121: Comparison 'catalog.get(book_id) == None' should be 'catalog.get(book_id) is None' (singleton-comparison)
+library_catalog_system.py:34:4: R1703: The if statement can be replaced with 'return bool(test)' (simplifiable-if-statement)
+library_catalog_system.py:34:4: R1705: Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (no-else-return)
+library_catalog_system.py:31:4: W0612: Unused variable 'late_fee' (unused-variable)
+library_catalog_system.py:40:0: C0116: Missing function or method docstring (missing-function-docstring)
+library_catalog_system.py:42:11: W0123: Use of eval (eval-used)
+library_catalog_system.py:41:4: W0612: Unused variable 'days' (unused-variable)
+library_catalog_system.py:46:0: C0116: Missing function or method docstring (missing-function-docstring)
+library_catalog_system.py:50:0: C0116: Missing function or method docstring (missing-function-docstring)
+library_catalog_system.py:54:0: C0116: Missing function or method docstring (missing-function-docstring)
+library_catalog_system.py:55:8: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+library_catalog_system.py:55:8: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
+library_catalog_system.py:61:0: C0116: Missing function or method docstring (missing-function-docstring)
+library_catalog_system.py:6:0: W0611: Unused import csv (unused-import)
+
+-----------------------------------
+Your code has been rated at 5.32/10
+
